@@ -86,3 +86,26 @@ button{
 .fa-star.empty{
     color: #aeaeae;
 }
+
+
+
+/* footer section design */
+footer{
+    background-color: darkblue;
+}
+.bottom-section{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.bottom-section> h2,p{
+    margin: 0;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.distance{
+    padding: 10px;
+}
