@@ -1,0 +1,82 @@
+/* general styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------------
+header section design
+--------------------------- */
+.top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.top-heading{
+    margin-top: 87px;
+}
+.head-style{
+    margin-left: 260px; 
+    margin-bottom: 50px;
+}
+.top-content{
+    width: 582px;
+    height: 270px;
+}
+.top-section{
+    margin-top: 285px;
+}
+.top-photo{
+    margin-right: 265px;
+}
+button{
+    background-color: hotpink;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+}
+ /* popular collection */
+ .influencer-heading{
+     text-align: center;
+ }
+ .influencers{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: center;
+ }
+ .influencer{
+    width: 208px;
+    height: 420px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+
+ }
+.influencer .influencer-banner img{
+    width: 200px;
+    height: 200px;
+}
+.influencer-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
