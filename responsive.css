@@ -2,6 +2,9 @@
     .influencer {
         min-width: 88%;
     }
+    .see-more{
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -11,13 +14,26 @@
     .top-content{
         width: 100%;
     }
+    .see-more{
+        width: 100%;
+    }
 }
-
+@media (max-width: 905px) {
+    .see-more {
+        text-align: center;
+    }
+}
 @media (max-width: 991px) {
     .top-section, .extra {
         flex-direction: column;
     }
     .extra, .top-heading {
         text-align: center;
+    }
+    .see-more{
+        width: 100%;
+    }
+    .see-more a {
+        margin-right: 20px;
     }
 }

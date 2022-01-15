@@ -108,7 +108,9 @@ a{
     font-size: 15px;
 }
 .see-more{
-    width: ;
+    width: 880px;
+    margin: auto;
+    text-align: right;
 }
  /* extra design */
  .extra-container{
